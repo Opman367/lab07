@@ -14,4 +14,5 @@ public class Obstacle : MonoBehaviour
         else
             transform.Translate(Vector3.right * Time.deltaTime * -Speed);
     }
+    
 }
